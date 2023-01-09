@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <title>Chợ Tốt</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <div class="header_option-top">
+          <div class="header_logo">
+            <img
+              src="./img/transparent_logo.png"
+              alt=""
+              class="header_logo-img"
+            />
+          </div>
+
+          <div class="header_option_right">
+            <div class="header_item-wrapper">
+              <i class="fas fa-home"></i>
+              <div class="header_item-desc">Trang chủ</div>
+            </div>
+
+            <div class="header_item-wrapper">
+              <i class="fas fa-wrench"></i>
+              <div class="header_item-desc">Quản lý tin</div>
+            </div>
+
+            <div class="header_item-wrapper">
+              <i class="far fa-comment-dots"></i>
+              <div class="header_item-desc">Chat</div>
+            </div>
+
+            <div class="header_item-wrapper">
+              <i class="far fa-bell"></i>
+              <div class="header_item-desc">Thông báo</div>
+            </div>
+
+            <div class="header_item-wrapper">
+              <i class="fas fa-ellipsis-h"></i>
+              <div class="header_item-desc">Thêm</div>
+            </div>
+          </div>
+        </div>
+        <div class="header_option-bottom">
+          <div class="header_input-wraper">
+            <input
+              type="text"
+              placeholder="Tìm kiếm trên Chợ Tốt"
+              class="header_input-search"
+            />
+            <i class="search_icon fas fa-search"></i>
+          </div>
+
+          <div class="header_option-right-bottom">
+            <div class="header_user">
+              <i class="header_user-icon far fa-user-circle"></i>
+              <a href="login.html" class="header_user-name">Đăng nhập</a>
+            </div>
+
+            <div class="header_write">
+              <i class="header_write-icon fas fa-edit"></i>
+              <a class="header_write-text">ĐĂNG TIN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="slider">
+        <div class="slider_img-wrapper">
+          <img src="./img/slider.jpg" alt="" class="slider_img" />
+        </div>
+
+        <div class="slider_option">
+          <div class="slider_item-wrap">
+            <img
+              src="./img/mienphivanchuyen.webp"
+              alt=""
+              class="slider_item-img"
+            />
+            <p class="slider_item-text">Miễn phí vận chuyển</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/danhgiatutoi.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Đánh giá từ tôi</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img
+              src="./img/dangtinchotang.webp"
+              alt=""
+              class="slider_item-img"
+            />
+            <p class="slider_item-text">Đăng tin tặng quà</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/dinhgiabanxe.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Định giá bán xe</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/napdongtot.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Nạp đồng tốt</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/chototuudai.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Chợ tốt ưu đãi</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/tindangdaluu.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Tin đăng đã lưu</p>
+          </div>
+
+          <div class="slider_item-wrap">
+            <img src="./img/timkiemdaluu.webp" alt="" class="slider_item-img" />
+            <p class="slider_item-text">Tìm kiếm đã lưu</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="list_option">
+        <div class="list_header">
+          <span class="list_header-text">Khám phá danh mục</span>
+        </div>
+
+        <div class="list_item">
+          <div class="list_item-wrap">
+            <img src="./img/bds.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Bất động sản</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/xc.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Xe cộ</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/đtd.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Đồ điện tử</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/dgd.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Đồ gia dụng, nội thất</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/giaitri.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Giải trí, thể thao</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/mb.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Mẹ và bé</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/dulich.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Du lịch, dịch vụ</div>
+          </div>
+          <div class="list_item-wrap">
+            <img src="./img/vieclam.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Việc làm</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/tc.png" alt="" class="list_item-img" />
+            <div class="list_item-desc">Thú cưng</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/doan.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Đồ ăn và thực phẩm</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/tulanh.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Tủ lạnh, máy lạnh</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/thoitrang.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Thời trang</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/vanphong.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Đồ dùng văn phòng</div>
+          </div>
+
+          <div class="list_item-wrap">
+            <img src="./img/quatang.webp" alt="" class="list_item-img" />
+            <div class="list_item-desc">Cho tặng miễn phí</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home">
+        <div class="home_header">
+          <span class="home_header-text">Tin đăng mới</span>
+        </div>
+
+        <div class="home_product">
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/1.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">5</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">NEW Mặt Bằng Kinh Doanh City Land</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">22 triệu/tháng</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/2.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">7</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Nhà 4x17m, ĐS2, P16,Q. Gò vấp, đường thông 6m</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">Hướng Nam</div> -->
+              <div class="home_product-cost">8.1 tỷ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/3.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">15</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Auto86 bán Mercedes CLS350 AMG 2014 cực đẹp</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">1.650.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">49 giây trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/4.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">9</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Ford Ranger 2.2 AT XLS 2021 siêu lướt nhập khẩu</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">699.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">58 Giây Trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Hà Nội</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/5.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">2</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">Dư xe cần bán ae mua về tập lái</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">27.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Đà Nẵng</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/1.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">5</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">NEW Mặt Bằng Kinh Doanh City Land</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">22 triệu/tháng</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/2.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">7</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Nhà 4x17m, ĐS2, P16,Q. Gò vấp, đường thông 6m</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">Hướng Nam</div> -->
+              <div class="home_product-cost">8.1 tỷ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/3.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">15</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Auto86 bán Mercedes CLS350 AMG 2014 cực đẹp</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">1.650.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">49 giây trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/4.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">9</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Ford Ranger 2.2 AT XLS 2021 siêu lướt nhập khẩu</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">699.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">58 Giây Trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Hà Nội</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/5.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">2</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">Dư xe cần bán ae mua về tập lái</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">27.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Đà Nẵng</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/1.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">5</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">NEW Mặt Bằng Kinh Doanh City Land</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">22 triệu/tháng</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/2.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">7</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Nhà 4x17m, ĐS2, P16,Q. Gò vấp, đường thông 6m</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">Hướng Nam</div> -->
+              <div class="home_product-cost">8.1 tỷ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/3.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">15</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Auto86 bán Mercedes CLS350 AMG 2014 cực đẹp</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">1.650.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">49 giây trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">TP.Hồ Chí Minh</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/4.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">9</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name"
+                >Ford Ranger 2.2 AT XLS 2021 siêu lướt nhập khẩu</a
+              >
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area">100 m²</div> -->
+              <div class="home_product-cost">699.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">58 Giây Trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Hà Nội</div>
+            </div>
+          </div>
+
+          <div class="home_product-item">
+            <div class="home_img">
+              <img src="./img/product/5.jpg" alt="" class="home_product-img" />
+              <div class="home_img-thumbnail">
+                <span class="home_img-numbers">2</span>
+              </div>
+
+              <div class="home_img-favourite">
+                <img
+                  src="https://static.chotot.com/storage/chotot-icons/next/save-ad.svg"
+                  alt=""
+                  class="home_img-heart"
+                />
+              </div>
+            </div>
+            <div class="home_product-caption">
+              <a class="home_product-name">Dư xe cần bán ae mua về tập lái</a>
+              <i class="home_product-button fas fa-ellipsis-v"></i>
+              <!-- <div class="home_product-area"></div> -->
+              <div class="home_product-cost">27.000.000 đ</div>
+            </div>
+            <div class="home_product-seller">
+              <img
+                src="https://cdn.chotot.com/uac2/22397298"
+                alt=""
+                class="home_seller-avatar"
+              />
+              <div class="a">.</div>
+              <div class="home_seller-time">9 giờ trước</div>
+              <div class="b">.</div>
+              <div class="home_seller-adress">Đà Nẵng</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="home_footer">
+          <button class="home_footer-text">
+            Xem Thêm
+            <i class="home_footer-icon fas fa-angle-down"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content_desc-header">
+          <span class="content_header-text"
+            >Chợ Tốt - Chợ Mua Bán, Rao Vặt Trực Tuyến Hàng Đầu Của Người
+            Việt</span
+          >
+        </div>
+
+        <div class="content_text">
+          <p>
+            <p>
+              Chợ Tốt chính thức gia nhập thị trường Việt Nam vào đầu năm
+              2012, với mục đích tạo ra cho bạn một kênh rao vặt trung gian,
+              kết nối người mua với người bán lại với nhau bằng những giao
+              dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn, mang đến
+              hiệu quả bất ngờ.
+            </p>
+            <p>
+              Đến nay, Chợ Tốt tự hào là Website rao vặt được ưa chuộng hàng
+              đầu Việt Nam. Hàng ngàn món hời từ
+              <a href="">Bất động sản, Nhà cửa, Xe cộ, Đồ điện tử,</a> Thú
+              cưng, Vật dụng cá nhân... đến tìm việc làm, thông tin tuyển
+              dụng, các dịch vụ - du lịch được đăng tin, rao bán trên Chợ Tốt.
+            </p>
+            <p>
+              Với Chợ Tốt, bạn có thể dễ dàng mua bán, trao đổi bất cứ một
+              loại mặt hàng nào, dù đó là đồ cũ hay đồ mới với nhiều lĩnh vực:
+            </p>
+            <p>
+              <strong>Bất động sản:</strong> Cho thuê, Mua bán
+              <a href=""
+                >nhà đất, căn hộ chung cư, văn phòng mặt bằng kinh doanh,</a
+              >
+              phòng trọ đa dạng về diện tích, vị trí
+            </p>
+            <p>
+              <strong>Phương tiện đi lại:</strong>
+              <a href=""> xe ô tô, xe máy</a>
+              có độ bền cao, giá cả hợp lý, giấy tờ đầy đủ<strong id="dots">....</strong>
+            </p>            
+
+            <div id="more">
+              <p>
+                <strong>Đồ điện tử:</strong>
+                <a href=""> quần áo, giày dép, túi xách, đồng hồ...</a>
+                đa phong cách, hợp thời trang.
+              </p>
+    
+              <p>
+                <strong>Đồ dùng cá nhân:</strong>
+                <a href="#">
+                  điện thoại di động, máy tính bảng, laptop, tivi, loa,
+                  amply...;</a
+                >
+                đồ điện gia dụng:
+                <a href="#">máy giặt, tủ lạnh, máy lạnh điều hòa...</a> với rất
+                nhiều nhãn hiệu, kích thước khác nhau.
+              </p>
+              <p>
+                <a href="#">Vật nuôi, thú cưng </a> đa chủng loại:
+                <a href="#"
+                  >gà, chó (chó phốc sóc, chó pug, chó poodle...), chim,mèo (mèo
+                  anh lông ngắn, mèo munchkin...)</a
+                >
+                cá, hamster giá cực tốt.
+              </p>
+              <p>
+                <strong>Tuyển dụng, việc làm </strong>với hàng triệu công việc
+                hấp dẫn, phù hợp tại <a href="">Việc Làm Tốt -</a> Kênh tuyển
+                dụng hiệu quả, uy tín được phát triển bởi Chợ Tốt.
+              </p>
+              <p>
+                <a href="">Dịch vụ, du lịch:</a> khách sạn, vé máy bay, vé tàu,
+                vé xe, tour du lịch và các voucher du lịch... uy tín, chất
+                lượng.
+              </p>
+              <p>
+                <a href="">Đồ ăn, thực phẩm:</a> các món ăn được chế biến thơm
+                ngon, hấp dẫn, thực phẩm tươi sống, an toàn & giá cả hợp lý.
+              </p>
+              <p>
+                Và còn rất nhiều mặt hàng khác nữa đã và đang được rao bán tại
+                Chợ Tốt
+              </p>
+              <p>
+                Mỗi người trong chúng ta đều có những sản phẩm đã qua sử dụng và
+                không cần dùng tới nữa. Vậy còn chần chừ gì nữa mà không để nó
+                trở nên giá trị hơn với người khác. Rất đơn giản, bạn chỉ cần
+                chụp hình lại, mô tả cụ thể về sản phẩm và sử dụng ứng dụng Đăng
+                tin miễn phí của Chợ Tốt là đã có thể đến gần hơn với người cần
+                nó.
+              </p>
+              <p>
+                Không những thế, website chotot.com còn cung cấp cho bạn thông
+                tin về giá cả các mặt hàng để bạn có thể tham khảo. Đồng thời,
+                thông qua Blog kinh nghiệm, Chợ Tốt sẽ tư vấn, chia sẻ cho bạn
+                những thông tin bổ ích, bí quyết, mẹo vặt giúp bạn có những giao
+                dịch mua bán an toàn, đảm bảo. Chợ Tốt cũng sẵn sàng hỗ trợ bạn
+                trong mọi trường hợp cần thiết.
+              </p>
+              <p>
+                Chúc các bạn có những trải nghiệm mua bán tuyệt vời trên Chợ
+                Tốt.
+              </p>
+            </div>
+          </p>
+
+           <div onclick="readmore()" id="btn">Mở rộng<i class="fas fa-angle-down"></i></div>      
+        </div>
+
+        <div class="content-keys">
+          <p class="content_keys-title">Các từ khóa phổ biến</p>
+
+          <ul class="content-keys-text">
+            <li>Việc làm online tại nhà</li>
+            <li>Samsung Note 10</li>
+            <li>Điện Thoại iPhone</li>
+            <li>Điện Thoại iPhone</li>
+            <li>Điện Thoại iPhone</li>
+            <li>Điện Thoại iPhone</li>
+            <li>Việc làm Bình Dương</li>
+            <li>Việc làm thêm tại nhà</li>
+            <li>Điện thoại Samsung Cũ</li>
+            <li>Ống kính (lens) cũ</li>
+            <li>Tai Nghe Cũ</li>
+            <li>Máy tính bảng cũ</li>
+            <li>May gia công khẩu trang</li>
+            <li>Việc làm mùa dịch</li>
+            <li>Việc làm Vĩnh Long</li>
+            <li>Việc làm quận 7</li>
+            <li>Việc làm Long An</li>
+            <li>Việc làm Đồng Nai</li>
+            <li>Việc làm Bến Tre</li>
+            <li>Dàn karaoke cũ</li>
+            <li>Chợ đồ cũ Hà Nội</li>
+            <li>Máy ảnh cũ</li>
+            <li>Amply</li>
+            <li>Laptop Cũ</li>
+            <li>Nhận hàng gia công về nhà làm</li>
+            <li>Việc làm Thủ Đức</li>
+            <li>Tìm việc làm TPHCM</li>
+            <li>Việc làm Tiền Giang</li>
+            <li>Việc làm Đà Lạt</li>
+            <li>Việc làm Đà Nẵng</li>
+            <li>Việc làm Bắc Ninh</li>
+            <li>Tivi cũ giá rẻ</li>
+            <li>Chợ đồ cũ Sài Gòn</li>
+            <li>Máy quay cũ</li>
+            <li>Loa Cũ</li>
+            <li>Điện Thoại Cũ</li>
+            <li>Việc làm bao ăn ở</li>
+            <li>Điện thoại Samsung</li>
+            <li>Việc làm quận Tân Bình</li>
+            <li>Việc làm Huế</li>
+            <li>Việc làm Hải Phòng</li>
+            <li>Việc làm Cần Thơ</li>
+            <li>Việc làm An Giang</li>
+            <li>Việc Làm Thời Vụ</li>
+            <li>Máy tính để bàn giá rẻ</li>
+            <li>Micro cũ</li>
+            <li>Máy tính để bàn cũ</li>
+            <li>Laptop Apple Macbook</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_content">
+          <section>
+            <div class="footer_content-grid">
+              <p>Tải ứng dụng chợ tốt</p>
+              <div class="footer_content-app">
+                <div class="footer_content-pr">
+                  <img
+                    src="./img/qr.webp"
+                    alt=""
+                    class="footer_content-pr--img"
+                  />
+                </div>
+                <div class="footer_content-list">
+                  <ul>
+                    <li>
+                      <img
+                        src="https://static.chotot.com/storage/default/ios.svg"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="https://static.chotot.com/storage/default/android.svg"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img src="./img/huawei.webp" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer_content-grid">
+              <p>Hỗ trợ khách hàng</p>
+              <ul class="footer_content-support">
+                <li><a href="">Trung tâm trợ giúp</a></li>
+                <li><a href="">An toàn mua bán</a></li>
+                <li><a href="">Qua định cần biết</a></li>
+                <li><a href="">Quy chế quyền riêng tư</a></li>
+                <li><a href="">Liên hệ hỗ trợ</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_content-grid">
+              <p>Về chợ tốt</p>
+              <ul class="footer_content-support">
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Truyền thống</a></li>
+                <li><a href="">Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_content-grid">
+              <div>
+                <p>Liên kết</p>
+                <ul class="footer_content-social">
+                  <li>
+                    <a href="https://www.facebook.com/chotot.vn"></a>
+                    <img
+                      src="https://static.chotot.com/storage/default/facebook.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/ChototVN"></a>
+                    <img
+                      src="https://static.chotot.com/storage/default/youtube.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/cho-tot"></a>
+                    <img
+                      src="https://static.chotot.com/storage/default/linkedin.svg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <p>Chứng nhận</p>
+                <ul class="footer_content-social1">
+                  <li>
+                    <a href="http://online.gov.vn/Home/WebDetails/33119"></a>
+                    <img
+                      src="./img/subscribe.webp"
+                      alt=""
+                      class="footer_content-social--sub"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <hr />
+
+        <div class="footer_adress">
+          <span>
+            CÔNG TY TNHH CHỢ TỐT - Người đại diện theo pháp luật: Nguyễn Trọng
+            Tấn
+            <h3>
+              Địa chỉ: Phòng 1808, Tầng 18, Mê Linh Point Tower, 02 Ngô Đức Kế,
+              Phường Bến Nghé, Quận 1, TP Hồ Chí Minh
+            </h3>
+            <h3>
+              Giấy chứng nhận đăng ký doanh nghiệp số 0312120782 do Sở Kế Hoạch
+              và Đầu Tư TPHCM cấp ngày 11/01/2013
+            </h3>
+            <h3>
+              Email: trogiup@chotot.vn - Tổng đài CSKH: 19003003 (1.000đ/phút)
+            </h3>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
